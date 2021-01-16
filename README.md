@@ -6,7 +6,7 @@ Ejemplo de almacenamiento de preferencias SharedPreference. La APP tiene dos act
 - Actividad para cargar las preferencias. Tiene un menú con una opción para volver a la actividad principal. También se puede volver con el botón 'Back' del dispositivo.
 - Fragmento que deriva de PreferenceFragment y que se utiliza para cargar la interfaz gráfica de las preferencias.
 
-A continuación se muestra el diseño de las interfaces de la aplicación:
+A continuación se muestra el diseño de la interfaz principal de la aplicación:
 
 ![Interfaz principal](https://raw.githubusercontent.com/pmdmdam2/PreferencesApp/master/app/src/main/assets/pref0.png)
 
