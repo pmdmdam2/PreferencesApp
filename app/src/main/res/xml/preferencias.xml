@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Datos Jugador">
+        <EditTextPreference
+            android:key="usuario"
+            android:title="Nombre del usuario"
+            android:summary="Introduce aquí tu nombre"
+            android:dialogTitle="Nombre" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Efecto de la bola">
+        <CheckBoxPreference
+            android:key="rebote"
+            android:title="Rebote"
+            android:summary="La bola rebotará en la pantalla" />
+        <ListPreference
+            android:key="velocidad"
+            android:title="Velocidad"
+            android:summary="Selecciona la velocidad de la bola"
+            android:dialogTitle="Elige velocidad:"
+            android:entries="@array/velocidad"
+            android:entryValues="@array/codigoVelocidad" />
+    </PreferenceCategory>
+</PreferenceScreen>
